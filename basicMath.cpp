@@ -12,6 +12,7 @@ int main() {
     std::cout << "This rectangle's area is " << (5 * 3) << "cm²" << std::endl;
     std::cout << "This rectangle's perimeter is ";
     std::cout << (2 * (5 + 3)) << "cm" << std::endl;
+
     std::cout << std::endl;
     std::cout << "Done." << std::endl;
 }
