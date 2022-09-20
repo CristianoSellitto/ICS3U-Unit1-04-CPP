@@ -8,9 +8,10 @@
 
 int main() {
     std::cout << "A rectangle is 5cm by 3cm" << std::endl;
-    std::cout << "\nThis rectangle's area is " << (5 * 3) << "cm²" << std::endl;
+    std::cout << std::endl;
+    std::cout << "This rectangle's area is " << (5 * 3) << "cm²" << std::endl;
     std::cout << "This rectangle's perimeter is ";
     std::cout << (2 * (5 + 3)) << "cm" << std::endl;
-
-    std::cout << "\nDone." << std::endl;
+    std::cout << std::endl;
+    std::cout << "Done." << std::endl;
 }
